@@ -15,10 +15,12 @@ node.Value = node.Value + 1
 
 ## Results
 
+```
 Number of Nodes = 100,000
 
 BenchmarkIterator-4   	    3000	    525292 ns/op
 BenchmarkSlice-4      	   10000	    107560 ns/op
+```
 
 ## Conclusion
 
